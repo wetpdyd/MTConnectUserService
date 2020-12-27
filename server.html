@@ -1,0 +1,15 @@
+<script type="text/javascript">
+    RED.nodes.registerType('mtc-agent', {
+      category: 'network',
+      color: "#FFE400",
+      default: {
+          name: {value: ""}
+      },
+      inputs:1,
+      outputs:1,
+      icon: "file.png",
+      label: function() {
+          return this.name||"mtc-agent"
+      }
+    })
+  </script>
